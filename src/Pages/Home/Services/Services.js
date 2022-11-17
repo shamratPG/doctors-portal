@@ -3,6 +3,7 @@ import InfoCard from '../InfoCard/InfoCard';
 import cavity from '../../../assets/images/cavity.png';
 import whitening from '../../../assets/images/whitening.png';
 import fluoride from '../../../assets/images/fluoride.png';
+import Exceptional from '../Exceptional/Exceptional';
 
 const Services = () => {
     return (
@@ -19,6 +20,7 @@ const Services = () => {
 
                 <InfoCard name='Teeth Whitening' bgColor='base-100' icon={whitening} text='Teeth Whitening is a quick and painless in-office whitening system.' textAlign="text-center" textColor="text-neutral"></InfoCard>
             </div>
+            <Exceptional></Exceptional>
         </div>
     );
 };

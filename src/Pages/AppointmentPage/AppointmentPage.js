@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import AvailableAppointment from './AvailableAppointment/AvailableAppointment';
 import CalendarHero from './CalendarHero/CalendarHero';
 
 const AppointmentPage = () => {
@@ -9,7 +10,9 @@ const AppointmentPage = () => {
                 selected={selected}
                 setSelected={setSelected}
             ></CalendarHero>
-
+            <AvailableAppointment
+                selected={selected}
+            ></AvailableAppointment>
         </div>
     );
 };

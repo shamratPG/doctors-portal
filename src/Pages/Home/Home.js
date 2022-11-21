@@ -5,6 +5,8 @@ import clock from '../../assets/icons/clock.svg';
 import marker from '../../assets/icons/marker.svg';
 import Services from './Services/Services';
 import Appointment from './Appointment/Appointment';
+import Testimonial from './Testimonial/Testimonial';
+import Contact from './Contact/Contact';
 
 
 
@@ -23,10 +25,13 @@ const Home = () => {
                 <InfoCard name='Contact us now' bgColor='bg-gradient-to-r from-primary to-secondary' icon={marker} text='+88019983483434 Email: doctors@point.com' textAlign="text-left" textColor="text-white"></InfoCard>
             </div>
 
-
             <Services></Services>
 
             <Appointment></Appointment>
+
+            <Testimonial></Testimonial>
+
+            <Contact></Contact>
 
         </div>
     );
